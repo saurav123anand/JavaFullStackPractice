@@ -2,9 +2,7 @@ package ReportGenerationms;
 
 public class School {
     Student[] students;
-    public School(){
 
-    }
     public School(int capacity){
         students=new Student[capacity];
     }
