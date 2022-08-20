@@ -1,12 +1,12 @@
-package abstractTask.com.traningapps.jobapp.ui;
-
-import abstractTask.com.traningapps.jobapp.companyms.Company;
-import abstractTask.com.traningapps.jobapp.jobms.*;
+package interfaceTask.com.traningapps.jobapp.ui;
+import interfaceTask.com.traningapps.jobapp.jobms.ElectronicsJob;
+import interfaceTask.com.traningapps.jobapp.companyms.Company;
+import interfaceTask.com.traningapps.jobapp.jobms.*;
 
 public class Main {
     public static void main(String[] args) {
-        Main obj = new Main();
-        ITJobService itJobService = new ITJobService(20);
+        Main obj=new Main();
+        IITJobService itJobService=new ITJobServiceImpl(20);
         ITJob itJob1 = new ITJob(1, "software", new Company("234fg", "Accenture"),
                 "Java", 2);
         ITJob itJob2 = new ITJob(2, "Analyst", new Company("7ddb6", "Capgemini"),
@@ -15,7 +15,8 @@ public class Main {
                 "Junit,Selenium,Kafka", 1);
         ITJob itJob4 = new ITJob(4, "Analyst", new Company("57fyg", "Atlassian"),
                 "JavaScript", 6);
-        itJobService.addJob(itJob1);
+        ITJob itJob= itJobService.addJob(itJob1);
+        System.out.println(itJob+" added to the store");
         itJobService.addJob(itJob2);
         itJobService.addJob(itJob3);
         itJobService.addJob(itJob4);
@@ -40,7 +41,7 @@ public class Main {
         obj.display(foundAllItJobsByType);
 
         // Electronics jobs********************************
-        ElectronicJobService electronicJobService = new ElectronicJobService(30);
+        IElectronicsJobService electronicJobService = new ElectronicsJobServiceImpl(30);
         ElectronicsJob electronicsJob1 = new ElectronicsJob(1, "semiconductor", new Company("3ref", "Mahindra Ltd"),
                 "diode", 5);
         ElectronicsJob electronicsJob2 = new ElectronicsJob(2, "BJT Transistor", new Company("77ff7", "l&T"),
@@ -72,7 +73,6 @@ public class Main {
         obj.display(foundAllElectronicsJobsByType);
 
     }
-
     public void display(ITJob[] jobs) {
         for (ITJob itJob : jobs) {
             display(itJob);
