@@ -7,8 +7,9 @@ public class ITJobServiceImpl extends AbstractJobService implements IITJobServic
     }
     @Override
     public ITJob addJob(ITJob itJob){
-        Job foundJob=super.addJob(itJob);
-        return (ITJob)foundJob;
+        Job job=super.addJob(itJob);
+        return (ITJob) job;
+       // return (ITJob)foundJob;
     }
     @Override
     public ITJob findJobById(long id){
@@ -37,7 +38,7 @@ public class ITJobServiceImpl extends AbstractJobService implements IITJobServic
                 itJobs[index]=(ITJob)job;
                 index++;
             }
-        }
+        } 
         return itJobs;
     }
 }

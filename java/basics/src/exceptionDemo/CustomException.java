@@ -15,7 +15,6 @@ public class CustomException {
         }
         System.out.println("execution ends");
 
-
     }
     public String validate(String name,int id) throws NameException{
         if(name.length()==0){
