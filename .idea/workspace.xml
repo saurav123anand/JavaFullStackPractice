@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/frontend/Frontend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/InhertitanceTask/com/traningapps/jobapp/companyms/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/InhertitanceTask/com/traningapps/jobapp/jobms/ElectronicsJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/InhertitanceTask/com/traningapps/jobapp/jobms/ITJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/InhertitanceTask/com/traningapps/jobapp/jobms/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/InhertitanceTask/com/traningapps/jobapp/jobms/JobStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/InhertitanceTask/com/traningapps/jobapp/ui/ApplicationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/InhertitanceTask/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/EvaluationTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/PROBLEM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/ReportGenerationTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/ScoreComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/ReportGenerationms/SurveyTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/abstractionDemo/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/abstractionDemo/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/abstractionDemo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/abstractionDemo/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/bookms/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/bookms/BookStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/bookms/InvalidGenreException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/bookms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/employeems/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/employeems/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/employeems/EmployeeStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/employeems/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/employeems/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/exceptionDemo/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/exceptionDemo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/exceptionDemo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/exceptionDemo/NameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/interfaceDemo/CasioCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/interfaceDemo/IBMCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/interfaceDemo/ICalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/interfaceDemo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/reportGenerationms2/EvaluationTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/reportGenerationms2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/reportGenerationms2/PROBLEM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/reportGenerationms2/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/reportGenerationms2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/studentms/CseStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/studentms/EceStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/studentms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/studentms/Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/out/production/stackroutePractice/studentms/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/dao/IProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/dao/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/InvalidIdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/InvalidIdException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/InvalidNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/InvalidNameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/InvalidPriceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/InvalidPriceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/exceptions/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/InhertitanceTask/com/traningapps/jobapp/companyms/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/InhertitanceTask/com/traningapps/jobapp/jobms/ElectronicsJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/InhertitanceTask/com/traningapps/jobapp/jobms/ITJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/InhertitanceTask/com/traningapps/jobapp/jobms/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/InhertitanceTask/com/traningapps/jobapp/jobms/JobStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/InhertitanceTask/com/traningapps/jobapp/ui/ApplicationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/InhertitanceTask/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/EvaluationTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/PROBLEM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/ReportGenerationTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/ScoreComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/ReportGenerationms/SurveyTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/companyms/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/jobms/BaseJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/jobms/ElectronicJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/jobms/ElectronicsJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/jobms/ITJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/jobms/ITJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/jobms/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/com/traningapps/jobapp/ui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractTask/problem2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractionDemo/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractionDemo/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractionDemo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/abstractionDemo/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/basicConcept/PassByDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/basicConcept/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/bookms/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/bookms/BookStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/bookms/InvalidGenreException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/bookms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/employeems/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/employeems/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/employeems/EmployeeStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/employeems/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/employeems/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/enumDemo/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/enumDemo/CategoryMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/enumDemo/DayBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/enumDemo/DayBreakMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/exceptionDemo/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/exceptionDemo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/exceptionDemo/InvalidPriceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/exceptionDemo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/exceptionDemo/NameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/exceptionDemo/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/exceptionDemo/ProductMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceDemo/CasioCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceDemo/IBMCalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceDemo/ICalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceDemo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/Bookshelf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/Furniture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/FurnitureDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/FurnitureImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/FurnitureType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/IFurniture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/Sofa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceEnumTask/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/companyms/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/AbstractJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/ElectronicsJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/ElectronicsJobServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/IElectronicsJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/IITJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/IJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/ITJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/ITJobServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/jobms/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/com/traningapps/jobapp/ui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/interfaceTask/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/reportGenerationms2/EvaluationTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/reportGenerationms2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/reportGenerationms2/PROBLEM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/reportGenerationms2/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/reportGenerationms2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/studentms/CseStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/studentms/EceStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/studentms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/studentms/Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFullStackPractice/studentms/Student.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Dn0LwyGXE92TfQ2V6gI8VUdfAy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trainingapps.productms.ProductApplication" />
+      <module name="saniaLayeredArchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trainingapps.productms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProductApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="" />
+      <created>1661319489231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661319489231</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

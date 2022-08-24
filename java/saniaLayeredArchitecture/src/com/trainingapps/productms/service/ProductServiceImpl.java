@@ -34,9 +34,9 @@ public class ProductServiceImpl implements IProductService{
     }
 
     @Override
-    public Product changePrice(long id, double price) {
+    public Product changePrice(long id, double price) throws ProductNotFoundException {
         ValidateId(id);
-        Product product=productDao.findById(id);
+        Product product=findById(id);
         product.setPrice(price);
         productDao.update(product);
         return product;
@@ -48,9 +48,9 @@ public class ProductServiceImpl implements IProductService{
     }
 
     @Override
-    public void delete(long id) {
+    public void delete(long id) throws ProductNotFoundException {
         ValidateId(id);
-        Product product=productDao.findById(id);
+        Product product=findById(id);
         productDao.delete(product);
 
 

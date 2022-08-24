@@ -11,8 +11,8 @@ public class ProductDaoImpl implements IProductDao {
 
     private long generatedId;
 
-    private void generateId() {
-        ++generatedId;
+    private long generateId() {
+        return ++generatedId;
     }
 
     private int index = 0;
@@ -20,7 +20,7 @@ public class ProductDaoImpl implements IProductDao {
     @Override
     public void add(Product product) {
         if (index < products.length) {
-            product.setId(generatedId);
+            product.setId(generateId());
             products[index] = product;
             index++;
         }

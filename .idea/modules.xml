@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaFullStackPractice.iml" filepath="$PROJECT_DIR$/JavaFullStackPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaFullStackPractice.iml" filepath="$PROJECT_DIR$/.idea/JavaFullStackPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/basics/basics.iml" filepath="$PROJECT_DIR$/java/basics/basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/saniaLayeredArchitecture/saniaLayeredArchitecture.iml" filepath="$PROJECT_DIR$/java/saniaLayeredArchitecture/saniaLayeredArchitecture.iml" />
     </modules>
   </component>
 </project>
