@@ -27,7 +27,7 @@ public class Frontend {
             display(foundProductById);
 
             System.out.println("changing the price**************");
-            Product changePrice=productService.changePrice(2,20000);
+            Product changePrice = productService.changePrice(2, 20000);
             display(changePrice);
 
             System.out.println("getting all the products after changing the price*****************************");
@@ -35,26 +35,22 @@ public class Frontend {
             display(productsAfterChangePrice);
 
             System.out.println("deleting the product*****");
-            productService.delete(1);
+            Product deletedProduct = productService.delete(1);
+            System.out.println(deletedProduct + " has been deleted");
 
             System.out.println("getting all the products after deleting the product*****************************");
             Product[] productsAfterDeletingProduct = productService.findAll();
             display(productsAfterDeletingProduct);
 
-        }
-        catch (InvalidIdException e){
+        } catch (InvalidIdException e) {
             System.out.println(e.getMessage());
-        }
-        catch (InvalidNameException e){
+        } catch (InvalidNameException e) {
             System.out.println(e.getMessage());
-        }
-        catch (InvalidPriceException e){
+        } catch (InvalidPriceException e) {
             System.out.println(e.getMessage());
-        }
-        catch (ProductNotFoundException e){
+        } catch (ProductNotFoundException e) {
             System.out.println(e.getMessage());
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println("something went wrong");
         }
 

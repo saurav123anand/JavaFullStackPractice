@@ -8,16 +8,18 @@ import com.trainingapps.productms.exceptions.InvalidNameException;
 import com.trainingapps.productms.exceptions.InvalidPriceException;
 import com.trainingapps.productms.exceptions.ProductNotFoundException;
 
-public class ProductServiceImpl implements IProductService{
+public class ProductServiceImpl implements IProductService {
     IProductDao productDao;
-    public ProductServiceImpl(int capacity){
-        productDao=new ProductDaoImpl(capacity);
+
+    public ProductServiceImpl(int capacity) {
+        productDao = new ProductDaoImpl(capacity);
     }
+
     @Override
     public Product addProduct(String name, double price) {
         ValidateName(name);
         ValidatePrice(price);
-        Product product=new Product(name,price);
+        Product product = new Product(name, price);
         productDao.add(product);
         return product;
     }
@@ -25,9 +27,9 @@ public class ProductServiceImpl implements IProductService{
     @Override
     public Product findById(long id) throws ProductNotFoundException {
         ValidateId(id);
-        Product product=productDao.findById(id);
-        if(product==null){
-            throw new ProductNotFoundException("product not found for id "+id);
+        Product product = productDao.findById(id);
+        if (product == null) {
+            throw new ProductNotFoundException("product not found for id " + id);
         }
         return product;
 
@@ -36,7 +38,8 @@ public class ProductServiceImpl implements IProductService{
     @Override
     public Product changePrice(long id, double price) throws ProductNotFoundException {
         ValidateId(id);
-        Product product=findById(id);
+        ValidatePrice(price);
+        Product product = findById(id);
         product.setPrice(price);
         productDao.update(product);
         return product;
@@ -48,25 +51,28 @@ public class ProductServiceImpl implements IProductService{
     }
 
     @Override
-    public void delete(long id) throws ProductNotFoundException {
+    public Product delete(long id) throws ProductNotFoundException {
         ValidateId(id);
-        Product product=findById(id);
+        Product product = findById(id);
         productDao.delete(product);
-
+        return product;
 
     }
-    private void ValidateId(long id){
-        if(id<0){
+
+    private void ValidateId(long id) {
+        if (id < 0) {
             throw new InvalidIdException("Id is invalid");
         }
     }
-    private void ValidatePrice(double price){
-        if(price<0){
+
+    private void ValidatePrice(double price) {
+        if (price < 0) {
             throw new InvalidPriceException("price can't be negative");
         }
     }
-    private void ValidateName(String name){
-        if(name==null || name.isEmpty()){
+
+    private void ValidateName(String name) {
+        if (name == null || name.isEmpty()) {
             throw new InvalidNameException("Name is invalid,kindly mention the valid name");
         }
     }
