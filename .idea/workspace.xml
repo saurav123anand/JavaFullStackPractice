@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/BadFileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/FileApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/GoodFileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/frontend/problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/CopyOnlyVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/DefaultInputOutputReaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/ReadWriteLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/basics/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/dao/IProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/frontend/Frontend.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/frontend/Frontend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/saniaLayeredArchitecture/src/com/trainingapps/productms/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/saniaLayeredArchitecture/com/trainingapps/productms/frontend/Frontend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/saniaLayeredArchitecture/com/trainingapps/productms/frontend/Frontend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/saniaLayeredArchitecture/com/trainingapps/productms/service/IProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/saniaLayeredArchitecture/com/trainingapps/productms/service/IProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/saniaLayeredArchitecture/com/trainingapps/productms/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/saniaLayeredArchitecture/com/trainingapps/productms/service/ProductServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +35,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GoodFileCopy">
-    <configuration name="BadFileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.BadFileCopy" />
+  <component name="RunManager" selected="Application.ReadWriteLine">
+    <configuration name="CopyOnlyVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.CopyOnlyVowels" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iodemo.*" />
+          <option name="PATTERN" value="iodemo.charstreamdemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultInputOutputReaderWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.DefaultInputOutputReaderWriter" />
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iodemo.charstreamdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.trainingapps.productms.ProductApplication" />
-      <module name="saniaLayeredArchitecture" />
+    <configuration name="ReadWriteLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ReadWriteLine" />
+      <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trainingapps.productms.*" />
+          <option name="PATTERN" value="iodemo.charstreamdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,10 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadWriteLine" />
+        <item itemvalue="Application.DefaultInputOutputReaderWriter" />
+        <item itemvalue="Application.CopyOnlyVowels" />
         <item itemvalue="Application.GoodFileCopy" />
         <item itemvalue="Application.FileApi" />
-        <item itemvalue="Application.BadFileCopy" />
-        <item itemvalue="Application.ProductApplication" />
       </list>
     </recent_temporary>
   </component>
