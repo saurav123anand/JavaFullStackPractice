@@ -1,8 +1,6 @@
 package iodemo.charstreamdemos;
 
-import javax.swing.text.WrappedPlainView;
 import java.io.*;
-import java.util.stream.StreamSupport;
 
 public class DefaultInputOutputReaderWriter {
     public static void main(String[] args) {

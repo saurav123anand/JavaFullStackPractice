@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/CopyOnlyVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/DefaultInputOutputReaderWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/ReadWriteLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/ReadLineWriteReplaceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/ReadWriteUsingScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/ReadWriteUsingScanner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/ScannerEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/DefaultInputOutputReaderWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/iodemo/charstreamdemos/DefaultInputOutputReaderWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/iodemo/charstreamdemos/DefaultInputOutputReaderWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/iodemo/charstreamdemos/DefaultInputOutputReaderWriter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +40,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLine">
-    <configuration name="CopyOnlyVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.CopyOnlyVowels" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="iodemo.charstreamdemos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReadWriteUsingScanner2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.Main" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -49,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultInputOutputReaderWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.DefaultInputOutputReaderWriter" />
+    <configuration name="ReadLineWriteReplaceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ReadLineWriteReplaceString" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -62,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.FileApi" />
+    <configuration name="ReadWriteUsingScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ReadWriteUsingScanner" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iodemo.*" />
+          <option name="PATTERN" value="iodemo.charstreamdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodFileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.GoodFileCopy" />
+    <configuration name="ReadWriteUsingScanner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ReadWriteUsingScanner2" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iodemo.*" />
+          <option name="PATTERN" value="iodemo.charstreamdemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ReadWriteLine" />
+    <configuration name="ScannerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ScannerEx" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
@@ -103,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadWriteLine" />
-        <item itemvalue="Application.DefaultInputOutputReaderWriter" />
-        <item itemvalue="Application.CopyOnlyVowels" />
-        <item itemvalue="Application.GoodFileCopy" />
-        <item itemvalue="Application.FileApi" />
+        <item itemvalue="Application.ReadWriteUsingScanner2" />
+        <item itemvalue="Application.ReadWriteUsingScanner" />
+        <item itemvalue="Application.ScannerEx" />
+        <item itemvalue="Application.ReadLineWriteReplaceString" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
