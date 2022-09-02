@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/basics/src/stringdemo/StringBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/stringdemo/StringBufferEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/stringdemo/StringBuilderEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/ListEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/ListEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/ListEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/IdKeyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/MapEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/MapEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/MapEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/NameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/SetEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/SetEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/SetEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/genericsdemo/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/genericsdemo/FruitMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/identityeqalitydemo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/identityeqalitydemo/StudentMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,17 +57,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collectiondemo.mapdemo" />
+      <recent name="collectiondemo.setdemo" />
+      <recent name="collectiondemo.listdemo" />
       <recent name="stringdemo" />
       <recent name="iodemo.charstreamdemos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBufferEx">
-    <configuration name="ReadWriteUsingScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ReadWriteUsingScanner" />
+  <component name="RunManager" selected="Application.MapEx3">
+    <configuration name="ListEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiondemo.listdemo.ListEx3" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iodemo.charstreamdemos.*" />
+          <option name="PATTERN" value="collectiondemo.listdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteUsingScanner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iodemo.charstreamdemos.ReadWriteUsingScanner2" />
+    <configuration name="MapEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiondemo.mapdemo.MapEx1" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iodemo.charstreamdemos.*" />
+          <option name="PATTERN" value="collectiondemo.mapdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringdemo.StringBasic" />
+    <configuration name="MapEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiondemo.mapdemo.MapEx3" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringdemo.*" />
+          <option name="PATTERN" value="collectiondemo.mapdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringdemo.StringBufferEx" />
+    <configuration name="SetEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiondemo.setdemo.SetEx3" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringdemo.*" />
+          <option name="PATTERN" value="collectiondemo.setdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringdemo.StringBuilderEx" />
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="identityeqalitydemo.StudentMain" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringdemo.*" />
+          <option name="PATTERN" value="identityeqalitydemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringBufferEx" />
-        <item itemvalue="Application.StringBuilderEx" />
-        <item itemvalue="Application.StringBasic" />
-        <item itemvalue="Application.ReadWriteUsingScanner2" />
-        <item itemvalue="Application.ReadWriteUsingScanner" />
+        <item itemvalue="Application.MapEx3" />
+        <item itemvalue="Application.MapEx1" />
+        <item itemvalue="Application.SetEx3" />
+        <item itemvalue="Application.ListEx3" />
+        <item itemvalue="Application.StudentMain" />
       </list>
     </recent_temporary>
   </component>
