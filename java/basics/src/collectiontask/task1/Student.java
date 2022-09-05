@@ -1,4 +1,6 @@
-package collectiontask;
+package collectiontask.task1;
+
+import collectiontask.task1.Department;
 
 public class Student {
     private int id;

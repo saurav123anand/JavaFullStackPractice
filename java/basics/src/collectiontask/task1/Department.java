@@ -1,4 +1,4 @@
-package collectiontask;
+package collectiontask.task1;
 
 public class Department {
     private int id;

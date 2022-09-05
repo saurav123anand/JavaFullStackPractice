@@ -1,9 +1,9 @@
-package collectiontask;
+package collectiontask.task1;
 
 import java.util.*;
 
 public class School {
-    Map<Integer,Student> students=new LinkedHashMap<>();
+    Map<Integer, Student> students=new LinkedHashMap<>();
     private int studentId;
     private int generateStudentId(){
         return ++studentId;

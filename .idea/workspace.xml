@@ -2,30 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/ListEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/ListEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/ListEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/listdemo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/IdKeyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/MapEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/MapEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/MapEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/mapdemo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/NameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/SetEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/SetEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/SetEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiondemo/setdemo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/problem.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/genericsdemo/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/genericsdemo/FruitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/identityeqalitydemo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/identityeqalitydemo/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/NameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/Resident.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/ResidentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/ApplicationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/Problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerTeamDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerTeamDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/exception/InvalidIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/exception/PlayerAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/exception/PlayerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/frontend/Frontend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/model/PlayerTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/resources/finalteam.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/resources/player.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/IPlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/IPlayerTeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/LeagueTeamTitles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/PlayerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/PlayerTeamServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/problem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiondemo/mapdemo/IdKeyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/collectiondemo/mapdemo/IdKeyComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/problem.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -54,8 +65,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="E:/FSD/capstoneProject/newsApp/backend/newsFavouritems" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="javatollgate.exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaFullStackPractice\java\basics\src\collectiontask\task1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="collectiondemo.mapdemo" />
       <recent name="collectiondemo.setdemo" />
@@ -64,13 +82,26 @@
       <recent name="iodemo.charstreamdemos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapEx3">
-    <configuration name="ListEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiondemo.listdemo.ListEx3" />
+  <component name="RunManager" selected="Application.ApplicationMain">
+    <configuration name="ApplicationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javatollgate.ApplicationMain" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiondemo.listdemo.*" />
+          <option name="PATTERN" value="javatollgate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiontask.task2.Main" />
+      <module name="basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectiontask.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,26 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="identityeqalitydemo.StudentMain" />
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="identityeqalitydemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApplicationMain" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MapEx3" />
         <item itemvalue="Application.MapEx1" />
         <item itemvalue="Application.SetEx3" />
-        <item itemvalue="Application.ListEx3" />
-        <item itemvalue="Application.StudentMain" />
       </list>
     </recent_temporary>
   </component>
