@@ -2,40 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/NameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/Resident.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/ResidentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task2/problem.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/ApplicationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/Problem.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerTeamDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerTeamDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/exception/InvalidIdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/exception/PlayerAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/exception/PlayerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/frontend/Frontend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/model/PlayerTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/resources/finalteam.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/resources/player.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/IPlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/IPlayerTeamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/LeagueTeamTitles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/PlayerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/service/PlayerTeamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/AnonymousClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/BiConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/BiFunctionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/BiPredicateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/BinaryOperatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/ConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/FunctionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/ICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/IEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/IEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/IGreeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/IIntegerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/IPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/ISum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/IValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/LambdaEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/PredicateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/StringConcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/SupplierMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/jdk8newfeatures/UnaryOperatorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/basics/src/collectiontask/problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/collectiontask/task1/problem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiondemo/mapdemo/IdKeyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/collectiondemo/mapdemo/IdKeyComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/School.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/collectiontask/problem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/dao/PlayerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/javatollgate/frontend/Frontend.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/frontend/Frontend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/javatollgate/resources/player.csv" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/resources/player.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/javatollgate/dao/PlayerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/javatollgate/dao/PlayerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/javatollgate/frontend/Frontend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/javatollgate/frontend/Frontend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basics/javatollgate/resources/player.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/javatollgate/resources/player.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="E:/FSD/capstoneProject/newsApp/backend/newsFavouritems" />
+    <property name="last_opened_file_path" value="E:/FSD/notes/wipro_javafs_22_evening/jee" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -82,13 +75,13 @@
       <recent name="iodemo.charstreamdemos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApplicationMain">
-    <configuration name="ApplicationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javatollgate.ApplicationMain" />
+  <component name="RunManager" selected="Application.BiPredicateMain">
+    <configuration name="BiFunctionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.BiFunctionMain" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javatollgate.*" />
+          <option name="PATTERN" value="jdk8newfeatures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiontask.task2.Main" />
+    <configuration name="BiPredicateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.BiPredicateMain" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiontask.task2.*" />
+          <option name="PATTERN" value="jdk8newfeatures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiondemo.mapdemo.MapEx1" />
+    <configuration name="BinaryOperatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.BinaryOperatorMain" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiondemo.mapdemo.*" />
+          <option name="PATTERN" value="jdk8newfeatures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiondemo.mapdemo.MapEx3" />
+    <configuration name="PredicateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.PredicateMain" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiondemo.mapdemo.*" />
+          <option name="PATTERN" value="jdk8newfeatures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiondemo.setdemo.SetEx3" />
+    <configuration name="UnaryOperatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.UnaryOperatorMain" />
       <module name="basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiondemo.setdemo.*" />
+          <option name="PATTERN" value="jdk8newfeatures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApplicationMain" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MapEx3" />
-        <item itemvalue="Application.MapEx1" />
-        <item itemvalue="Application.SetEx3" />
+        <item itemvalue="Application.BiPredicateMain" />
+        <item itemvalue="Application.PredicateMain" />
+        <item itemvalue="Application.BinaryOperatorMain" />
+        <item itemvalue="Application.UnaryOperatorMain" />
+        <item itemvalue="Application.BiFunctionMain" />
       </list>
     </recent_temporary>
   </component>
