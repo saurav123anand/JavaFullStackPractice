@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/basics/src/lambdaAndFunctionalInterfaceTask/KMCompaarator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/lambdaAndFunctionalInterfaceTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/lambdaAndFunctionalInterfaceTask/TicketCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/lambdaAndFunctionalInterfaceTask/TicketingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/lambdaAndFunctionalInterfaceTask/TicketingOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/basics/src/lambdaAndFunctionalInterfaceTask/sample.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/basics/src/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basics/jdk8newfeatures/BiPredicateMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basics/jdk8newfeatures/BiPredicateMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,33 +52,7 @@
       <recent name="iodemo.charstreamdemos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="BiPredicateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.BiPredicateMain" />
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8newfeatures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryOperatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.BinaryOperatorMain" />
-      <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8newfeatures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test3">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambdaAndFunctionalInterfaceTask.Main" />
       <module name="basics" />
@@ -109,26 +79,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdk8newfeatures.PredicateMain" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk8newfeatures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <module name="basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <module name="basics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BiPredicateMain" />
-        <item itemvalue="Application.PredicateMain" />
-        <item itemvalue="Application.BinaryOperatorMain" />
       </list>
     </recent_temporary>
   </component>
