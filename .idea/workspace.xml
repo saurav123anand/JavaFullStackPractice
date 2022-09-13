@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ad753f-bd1a-4106-8088-5af3f36230e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaFullStackPractice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/basics/src/javatollgate/ApplicationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/basics/src/javatollgate/ApplicationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jee/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/empms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jee/maven_ex/empms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/src/main/java/com/trainingapps/empms/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/classes/com/trainingapps/empms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/empms-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/surefire-reports/TEST-com.trainingapps.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/surefire-reports/com.trainingapps.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jee/maven_ex/empms/target/test-classes/com/trainingapps/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jee" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jee/maven_ex/empms" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
