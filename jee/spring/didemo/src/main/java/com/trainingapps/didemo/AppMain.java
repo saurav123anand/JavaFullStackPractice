@@ -1,7 +1,9 @@
 package com.trainingapps.didemo;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 
 public class AppMain {
     public static void main(String[] args) {
@@ -14,8 +16,22 @@ public class AppMain {
         canvas2.setSquare(square2);
         canvas2.drawShape();*/
 
-        ApplicationContext context=new AnnotationConfigApplicationContext(JavaConfig.class);
-        Canvas canvas=context.getBean(Canvas.class);
-        canvas.drawShape();
+        ConfigurableApplicationContext context=new AnnotationConfigApplicationContext(JavaConfig.class);
+        //getting bean by type
+        Canvas canvas1=context.getBean(Canvas.class);
+        canvas1.drawShape();
+
+        //getting bean by name
+        //Canvas canvas1=(Canvas) context.getBean("canvas");
+        Canvas canvas2=context.getBean("canvas",Canvas.class);
+        canvas2.drawShape();
+
+        boolean isBoolean=canvas1==canvas2;
+        System.out.println(isBoolean);
+
+        Square square1=context.getBean(Square.class);
+        Square square2=context.getBean(Square.class);
+        context.close();
+
     }
 }

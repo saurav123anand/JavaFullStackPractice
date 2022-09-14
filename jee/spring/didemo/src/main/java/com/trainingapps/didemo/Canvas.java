@@ -1,28 +1,44 @@
 package com.trainingapps.didemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+//@Scope("prototype")
 @Component
 public class Canvas {
+    @Qualifier("rectangle")
     @Autowired
-    Square square;
+    IShape shape;
     public Canvas(){
         System.out.println("calling default Canvas constructor");
     }
     //@Autowired
-    public Canvas(Square square){
+    public Canvas(IShape shape){
         System.out.println("calling parameterized Canvas Constructor");
-        this.square=square;
+        this.shape=shape;
     }
     //@Autowired
-    public void setSquare(Square square) {
-        this.square = square;
+    public void setSquare(IShape square) {
+        this.shape = shape;
     }
 
     public void drawShape(){
-        int area=square.area();
-        System.out.println("area of square is "+area);
+        System.out.println(shape.getClass().getName());
+        int area=shape.area();
+        System.out.println("area of shape is "+area);
+    }
+    @PostConstruct
+    public void afterInitialized(){
+        System.out.println("Canvas object has been created");
+    }
+    @PreDestroy
+    public void beforeDestroy(){
+        System.out.println("before canvas object is destroyed");
     }
 
 }
