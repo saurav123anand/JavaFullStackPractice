@@ -6,5 +6,4 @@ public class ApplicationMain {
         Frontend frontend=new Frontend();
         frontend.runUI();
     }
-
 }

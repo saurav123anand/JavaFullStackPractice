@@ -1,7 +1,6 @@
 package com.trainingapps.productms.service;
 
 import com.trainingapps.productms.dao.IProductDao;
-import com.trainingapps.productms.dao.ProductDaoImpl;
 import com.trainingapps.productms.entity.Product;
 import com.trainingapps.productms.exception.InvalidIdException;
 import com.trainingapps.productms.exception.InvalidNameException;
