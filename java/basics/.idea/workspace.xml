@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f31a48df-4b12-4529-a0ac-8a33030cbc91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../jee/spring/boot/demo/src/main/java/com/trainingapps/demo/frontend/Frontend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jee/spring/boot/productms/src/main/java/com/trainingapps/productms/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jee/spring/boot/productms/src/main/java/com/trainingapps/productms/dao/ProductDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jee/spring/boot/productms/src/main/java/com/trainingapps/productms/entity/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javatollgate/ApplicationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javatollgate/ApplicationMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jee/spring/di/productms/src/main/java/com/trainingapps/productms/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jee/spring/di/productms/src/main/java/com/trainingapps/productms/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jee/spring/jpa/jpaDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jee/spring/jpa/jpaDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jee/spring/jpa/jpaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jee/spring/jpa/jpaDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jee/spring/di/productms" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
