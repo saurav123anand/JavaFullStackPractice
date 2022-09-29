@@ -1,23 +1,25 @@
-package com.trainingapps.productms.entity;
+package com.example.demo.entity;
 
+import java.util.Objects;
 
-//Automatic Resource Management, automatic generation of
-// getters, setters, equals, hashCode and toString, and more!
 public class Product {
-    private long id;
+    private int id;
     private String name;
     private double price;
+
+    public Product() {
+    }
 
     public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -44,5 +46,18 @@ public class Product {
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Product product = (Product) o;
+        return id == product.id && Double.compare(product.price, price) == 0 && Objects.equals(name, product.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }

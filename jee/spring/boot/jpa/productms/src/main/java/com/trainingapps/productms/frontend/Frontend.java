@@ -21,6 +21,7 @@ public class Frontend {
            // display(product1);
             Product product2=service.add("motorolla",15000);
             Product product3=service.add("samsung",20000);
+
             //display(product2);
 
             System.out.println("find by id**************");
