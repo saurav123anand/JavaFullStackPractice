@@ -30,45 +30,40 @@ public class ProductController {
     //http://localhost:8585/products/findbyid/id
     @GetMapping("/findbyid/{id}")
     //@RequestMapping(value = "/products/findById/{id}",method = RequestMethod.GET)
-    public ProductDetails findById(@PathVariable @Min(value = 1,message = "id should not be less than 1") long id) throws Exception {
-        Product product = service.findById(id);
-        ProductDetails response=util.toProductDetails(product);
+    public ProductDetails findById(@PathVariable long id) throws Exception {
+        ProductDetails response = service.findProductDetailsById(id);
         return response;
     }
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("/add")
     //@RequestMapping(value = "/products/add",method = RequestMethod.POST)
-    public ProductDetails addProduct(@RequestBody @Valid AddProductRequest requestData) {
-        Product product = service.addProduct(requestData.getName(), requestData.getPrice());
-        ProductDetails response=util.toProductDetails(product);
+    public ProductDetails addProduct(@RequestBody AddProductRequest requestData) {
+        ProductDetails response = service.addProduct(requestData);
         return response;
     }
 
     @PutMapping("/update/price/{id}")
-    public ProductDetails updatePrice(@PathVariable("id") @Min(1) long productId, @RequestBody @Valid ChangeProductRequest requestData) throws Exception {
-        Product product = service.changePrice(productId, requestData.getPrice());
-        ProductDetails response=util.toProductDetails(product);
+    public ProductDetails updatePrice(@PathVariable("id") long productId, @RequestBody ChangeProductRequest requestData) throws Exception {
+        ProductDetails response = service.changePrice(productId, requestData);
         return response;
     }
 
     @GetMapping("/findbyname/{name}")
     //@RequestMapping(value = "/products/findById/{id}",method = RequestMethod.GET)
     public List<ProductDetails> findByName(@PathVariable String name) throws Exception {
-        List<Product> products = service.findByName(name);
-        List<ProductDetails> response=util.toProductDetails(products);
+        List<ProductDetails> response = service.findByName(name);
         return response;
     }
 
     @GetMapping("/findall")
     public List<ProductDetails> findAllProduct() {
-        List<Product> products=service.findAll();
-        List<ProductDetails> response=util.toProductDetails(products);
+        List<ProductDetails> response=service.findAll();
         return response;
     }
 
     @DeleteMapping("/deletebyid/{id}")
-    public String removeProduct(@PathVariable @Min(1) long id) throws Exception {
+    public String removeProduct(@PathVariable long id) throws Exception {
         service.deleteProduct(id);
         return "product with id " + id + " deleted";
     }

@@ -1,6 +1,9 @@
 package com.example.optimizedproductms.entity;
 
+import org.springframework.lang.Nullable;
+
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 @Table(name = "products")
 @Entity
