@@ -54,7 +54,7 @@ public class UserController {
         List<UserDetails> response=service.findAllUserByName(name);
         return response;
     }
-    @GetMapping("/findbycity")
+    @GetMapping("/findbycity/{city}")
     public List<UserDetails> findAllUserByCity(@PathVariable String city){
         List<UserDetails> response=service.findUserByCity(city);
         return response;
