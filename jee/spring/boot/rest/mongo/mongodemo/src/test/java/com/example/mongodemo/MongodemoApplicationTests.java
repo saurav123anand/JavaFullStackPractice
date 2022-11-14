@@ -1,10 +1,10 @@
-package com.example.userms;
+package com.example.mongodemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserApplicationTests {
+class MongodemoApplicationTests {
 
 	@Test
 	void contextLoads() {
