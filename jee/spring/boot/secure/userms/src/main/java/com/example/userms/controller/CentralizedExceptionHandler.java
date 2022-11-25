@@ -1,5 +1,7 @@
 package com.example.userms.controller;
 
+import com.example.userms.exception.InvalidCredentialException;
+import com.example.userms.exception.InvalidTokenException;
 import com.example.userms.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -15,6 +17,15 @@ public class CentralizedExceptionHandler {
     @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(UserNotFoundException.class)
     public String invalidUserHandler(UserNotFoundException e){
+        return e.getMessage();
+    }
+
+    @ResponseStatus(HttpStatus.UNAUTHORIZED)
+    @ExceptionHandler({
+            InvalidCredentialException.class,
+            InvalidTokenException.class
+    })
+    public String invalidCredentialHandler(Exception e){
         return e.getMessage();
     }
 
