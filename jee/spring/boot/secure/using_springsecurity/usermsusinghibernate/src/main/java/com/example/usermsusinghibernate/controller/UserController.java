@@ -1,4 +1,4 @@
-package com.example.userms.controller;
+package com.example.usermsusinghibernate.controller;
 
 import org.springframework.web.bind.annotation.*;
 

@@ -33,7 +33,6 @@ public class UserController {
         UserDetails response=service.findUserDetailsByUsername(username);
         return response;
 
-
     }
     @GetMapping("/all")
     public List<UserDetails> getAllUser(HttpServletRequest request) throws Exception{

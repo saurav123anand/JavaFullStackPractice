@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c77283d-2eff-4642-9ecf-d70a35f9c5f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/usermsusinghibernate/src/main/java/com/example/usermsusinghibernate/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usermsusinghibernate/src/main/java/com/example/usermsusinghibernate/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usermsusinghibernate/src/main/java/com/example/usermsusinghibernate/entity/MyUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usermsusinghibernate/src/main/java/com/example/usermsusinghibernate/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usermsusinghibernate/src/main/java/com/example/usermsusinghibernate/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usermsusinghibernate/src/main/java/com/example/usermsusinghibernate/service/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/hibernate.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/hibernate.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/spring security.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/spring security.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../using_jwttoken/userms/src/main/java/com/example/userms/UsermsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../using_jwttoken/userms/src/main/java/com/example/userms/UsermsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../using_simpletoken/userms/src/main/java/com/example/userms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../using_simpletoken/userms/src/main/java/com/example/userms/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/UsermsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/UsermsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userms/src/main/java/com/example/userms/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/userms/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JAUYBVKRBv02m5XboEGyrblHPO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/usermsusinghibernate" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c77283d-2eff-4642-9ecf-d70a35f9c5f4" name="Changes" comment="" />
+      <created>1671520426419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671520426419</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,6 +1,5 @@
 package com.example.userms.entity;
 
-import java.util.Objects;
 public class User {
     private String username;
     private String password;
