@@ -1,0 +1,34 @@
+#it is similar to application.properties file but better way of writing configuration
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/microHoteldb
+    username: root
+    password: Saurav@123anand
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  application:
+    name: HOTEL-SERVICE
+
+hibernate:
+  format_sql: true
+
+#configure eureka client
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka
+
+
