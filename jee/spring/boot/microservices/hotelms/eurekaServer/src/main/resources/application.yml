@@ -1,0 +1,10 @@
+server:
+  port: 9000
+#configure eureka server
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
