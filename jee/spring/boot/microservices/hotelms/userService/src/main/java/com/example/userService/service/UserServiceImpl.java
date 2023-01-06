@@ -49,7 +49,7 @@ public class UserServiceImpl implements IUserService{
     @Override
     public User findByUserId(String userId) {
         User user= repository.findById(userId).orElseThrow(()->new UserNotFoundException("user not found for userId "+userId));
-        //String ratingUrl="http://localhost:8085/ratings/users/"+userId;
+        //String ratingUrl="http://localhost:8085/ratings/users/"+user.getUserId();
         //removing hostname and port
         String ratingUrl="http://RATING-SERVICE/ratings/users/"+user.getUserId();
         Rating[] ratingsOfUser = restTemplate.getForObject(ratingUrl, Rating[].class);
