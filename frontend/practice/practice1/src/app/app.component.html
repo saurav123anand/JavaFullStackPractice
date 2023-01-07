@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      1. Add a input field which updates a property(username) via two way binding
+      2. output the username property via string interpolation(in a paragraph below the input )
+      3. add a button which may only be clicked if the username is not an empty string
+      4. upon clicking the button, the username should be reset to an empty string
+      <hr>
+      <div>
+        <input type="text" [(ngModel)]="username">
+        <p>username is {{username}}</p>   
+        <button [disabled]="username==''" (click)="username=''" class="btn btn-primary">Reset</button>
+      </div>
+    </div>
+  </div>
+</div>

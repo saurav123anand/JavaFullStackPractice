@@ -1,0 +1,22 @@
+<p>server works!</p>
+server name is {{serverName}} and status is {{getSatus()}}
+
+<!-- <img [src]="imageLink" alt=""> -->
+<button [disabled]="disabledValue">button</button>
+
+<!--event binding-->
+<button (click)="addServer()">add server</button>
+server is {{newServer}} and status is {{newStatus}}
+
+<!--two way binding-->
+<div>
+    <input type="text" [(ngModel)]="serverLocation">
+    server location is {{serverLocation}}
+</div>
+
+<!--directives-->
+<h1 *ngIf="active; else notActive">this is active structural directive </h1>
+
+<ng-template #notActive>
+   <p>inactive structural directive </p>
+</ng-template>
