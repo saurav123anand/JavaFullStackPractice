@@ -1,0 +1,18 @@
+1. Add a button which says display details
+2. add a paragraph with any content of your choice (i.e secret password='tuna')
+3. toggle the displaying of that paragraph with the button created in the first step
+4. log all button clicks in an array and output that array below the secret paragraph
+ (maybe log at timestamp or simply an incrementing number)
+5. starting at the 5th log item , give all future log items a blue background (via ngStyle) and
+ white color (ngClass)
+
+<br>
+
+<div>
+  <button class="btn btn-primary" (click)="onToggle()">display details</button>
+  <p *ngIf="showSecret">secret password='tuna'</p>
+  <div *ngFor="let logItem of logs let i=index"
+     [ngStyle]="{backgroundColor:i>=4?'blue':'transparent'}" [ngClass]="{'white':i>=4}">
+     {{logItem}}
+  </div>
+</div>

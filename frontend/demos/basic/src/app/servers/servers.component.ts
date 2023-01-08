@@ -21,4 +21,12 @@ export class ServersComponent implements OnInit {
      
   }
   servers=["sql Server","Java Server","Tomcat server","Netty Server"]
+ // customServer=new Server("disney server",8787);
+
+ styles={color:'red',backgroundColor:'black'};
+ num=47
 }
+
+// class Server{
+//   constructor(private serverName:string,private serverport:number){}
+// }

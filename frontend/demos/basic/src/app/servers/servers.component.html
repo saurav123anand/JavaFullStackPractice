@@ -4,5 +4,9 @@
 <h5>servers</h5>
 
 <ul>
-    <li *ngFor="let server of servers">{{server}}</li>
+    <li *ngFor="let server of servers; let i=index">{{i}},{{server}}</li>
 </ul>
+
+<h5 [ngStyle]="styles">this is attribute directive</h5>
+
+<p [ngClass]="{'yellow':num%2==0,'green':num%2!=0}">{{num}}</p>
