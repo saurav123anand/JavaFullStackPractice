@@ -10,3 +10,6 @@
 <h5 [ngStyle]="styles">this is attribute directive</h5>
 
 <p [ngClass]="{'yellow':num%2==0,'green':num%2!=0}">{{num}}</p>
+<ul>
+    <li *ngFor="let server of servers2; let i=index">{{i}},{{server.serverName}}</li>
+</ul>

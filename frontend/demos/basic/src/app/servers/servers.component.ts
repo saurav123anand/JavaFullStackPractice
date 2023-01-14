@@ -25,8 +25,15 @@ export class ServersComponent implements OnInit {
 
  styles={color:'red',backgroundColor:'black'};
  num=47
+ servers2:Server[]=[new Server("mongo server",6790)]
+}
+class Server{
+  constructor(public serverName:string,private serverport:number){}
 }
 
-// class Server{
-//   constructor(private serverName:string,private serverport:number){}
-// }
+
+
+
+
+
+
