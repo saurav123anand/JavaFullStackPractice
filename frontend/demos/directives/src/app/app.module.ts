@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BasicHighlightDirective } from './basicattributedirective/basic-highlight.directive';
 import { BetterHighlightDirective } from './betterattributedirective/better-highlight.directive';
+import { CustomStructuralDirective } from './buildstructuraldirective/custom-structural.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicHighlightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    CustomStructuralDirective
   ],
   imports: [
     BrowserModule,

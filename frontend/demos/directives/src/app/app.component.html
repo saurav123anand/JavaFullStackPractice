@@ -16,9 +16,19 @@
            [ngStyle]="{backgroundColor:even%2==0? 'green':'transparent'}"
            >{{even}}</li>
         </div>
+        <br>
+        <!--internal working of structural directive-->
+        <ng-template [ngIf]="!onlyOdd ">
+          <li class="list-group-item"
+           *ngFor="let even of evenNumbers"
+           [ngStyle]="{backgroundColor:even%2==0? 'green':'transparent'}"
+           >{{even}}</li>
+        </ng-template>
+
       </ul>
+      <br>
       <p appBasicHighlight>this is basic attribute directive</p>
-      <p appBetterHighlight>this is better attribute directive</p>
+      <p appBetterHighlight [defaultColor]="'green'" [highlightedColor]="'red'">this is better attribute directive</p>
     </div>
 
   </div>
