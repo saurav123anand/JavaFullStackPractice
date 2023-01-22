@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-xs-12 col-md-8 col-md-offset-2"
+     style="background-color: rgb(239, 235, 235); margin: 12px 0px; padding: 15px; border-radius: 12px;"  >
+        <h5>{{account?.name}}</h5>
+        <p>the account status is {{account?.status}}</p>
+        <button class="btn btn-primary" 
+        style="margin-right: 4px;" (click)="onSetTo('active')">set to active</button>
+        <button class="btn btn-primary"
+         style="margin-right: 4px;" (click)="onSetTo('inactive')">set to inactive</button>
+        <button class="btn btn-primary" (click)="onSetTo('hidden')">set to hidden</button>
+    </div>
+</div>

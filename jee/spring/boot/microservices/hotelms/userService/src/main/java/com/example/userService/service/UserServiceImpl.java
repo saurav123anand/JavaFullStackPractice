@@ -6,11 +6,12 @@ import com.example.userService.entities.User;
 import com.example.userService.exception.UserNotFoundException;
 import com.example.userService.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.PostConstruct;
 import java.util.*;
-
 @Service
 public class UserServiceImpl implements IUserService{
     @Autowired
@@ -64,4 +65,5 @@ public class UserServiceImpl implements IUserService{
         user.setRatings(ratings);
         return user;
     }
+
 }
