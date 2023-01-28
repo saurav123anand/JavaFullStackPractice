@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let server of servers" 
+                [ngClass]="{'green':server.status=='Online','red':server.status=='Offline'}">
+                    <span>
+                        {{server.status}}
+                    </span>
+                    <strong>{{server.name | short:14}} || {{server.started | date:"fullDate" | uppercase}}</strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+amount is {{amount | currency}} in US format
