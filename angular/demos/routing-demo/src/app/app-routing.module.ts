@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { UserComponent } from './users/user/user.component';
 import { AuthGuardService } from './auth-guard.service';
+import { CanDeactivateGuardService } from './can-deactivate.service';
 
 const routes:Routes=[
   {
@@ -43,7 +44,8 @@ const routes:Routes=[
       },
       {
         path:":id/edit",
-        component:EditServerComponent
+        component:EditServerComponent,
+        canDeactivate:[CanDeactivateGuardService]
       }
     ]
   },

@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <div id="user-data" ngModelGroup="userData" #userData="ngModelGroup">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" class="form-control" ngModel name="username" required>
+          </div>
+          <button class="btn btn-success" (click)="suggestUserName()" type="button">Suggest an username</button>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" ngModel name="email" required email
+            #email="ngModel">
+            <span *ngIf="!email.valid && email.touched">please enter a valid email</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="secret">Secret Question</label>
+          <select class="form-control" id="secret" [ngModel]="defaultQuestion" name="secret">
+            <option value="pet">Your first pet?</option>
+            <option value="teacher">Your first Teacher?</option>
+          </select>
+        </div>
+        <div class="form-group">
+           <textarea name="questionAnswer" rows="4" [(ngModel)]="answer"></textarea>
+        </div>
+        <p>your answer: {{answer}}</p>
+        <div class="radio" *ngFor="let gender of genders"> 
+          <label>
+            <input type="radio" name="gender" ngModel [value]="gender" required="">
+            {{gender}}
+          </label>
+
+        </div>
+        <button [disabled]="!f.valid" class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+    <hr>
+  </div>
+</div>
+<div class="row" *ngIf="submitted">
+  <div class="col-xs-12">
+    <h3>Your Data</h3>
+    <p>UserName : {{user.username}} </p>
+    <p>Email : {{user.email}}</p>
+    <p>Secret Question : {{user.secretQuestion}}</p>
+    <p>Answer : {{user.answer}}</p>
+    <p>Gender : {{user.gender}}</p>
+  </div>
+</div>
