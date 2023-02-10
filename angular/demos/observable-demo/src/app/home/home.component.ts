@@ -11,6 +11,7 @@ import { filter, map } from 'rxjs/operators';
 })
 export class HomeComponent implements OnInit,OnDestroy {
   private firstObsSubscription:Subscription
+   dataArray=[]
   constructor() { }
 
   ngOnInit(): void {
@@ -33,12 +34,23 @@ export class HomeComponent implements OnInit,OnDestroy {
         count++;
        },1000)
     })
+    //without operator
+    // this.firstObsSubscription=customObservable.subscribe(data=>{
+    //   console.log(data)
+    // },error=>{
+    //   console.log(error.message)
+    // },()=>{
+    //   console.log("completed")
+    // })
+    
+    //with ooperator
     this.firstObsSubscription=customObservable.pipe(filter(data=>{
       return data>0;
     }),map((data:number)=>{
       return "round "+(data+1);
     })).subscribe(data=>{
       console.log(data)
+      this.dataArray.push(data)
     },error=>{
       console.log(error.message)
     },()=>{

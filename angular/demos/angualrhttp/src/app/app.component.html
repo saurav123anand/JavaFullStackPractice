@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <form (ngSubmit)="onCreatePost(postForm.value)" #postForm="ngForm">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" id="title" class="form-control" ngModel name="title" required>
+          </div>
+          <div class="form-group">
+            <label for="content">Content</label>
+            <input type="text" id="content" class="form-control" ngModel name="content" required>
+          </div>
+        <button [disabled]="!postForm.valid" class="btn btn-primary" type="submit">Send Post</button>
+      </form>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-primary" (click)="onFetchPosts()">Fetch Posts</button>
+      <button class="btn btn-danger" (click)="onDeletePosts()">Clear Posts </button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <p *ngIf="loadedPosts.length<1 && !isFetching">No post available</p>
+      <ul class="list-group" *ngIf="loadedPosts.length>=1 && !isFetching">
+        <li class="list-group-item" *ngFor="let post of loadedPosts">
+          <h1>{{post.title}}</h1>
+          <p>{{post.content}}</p>
+        </li>
+      </ul>
+      <p *ngIf="isFetching && !error">loading...</p>
+      <div class="alert alert-danger" *ngIf="error">
+        <h4>An error occured</h4>
+        <p>{{error}}</p>
+        <button class="btn btn-danger" (click)="onHandleError()">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
