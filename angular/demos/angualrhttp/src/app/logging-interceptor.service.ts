@@ -5,13 +5,18 @@ import { Observable, tap } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class AuthInterceptorService  implements HttpInterceptor{
+export class LoggingInterceptorService implements HttpInterceptor{
 
   constructor() { }
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    const modifiedRequest=req.clone({
-      headers:req.headers.append('auth','xyz')
-    })
-   return next.handle(modifiedRequest) // this will let request to go forward
+    console.log("outgoing request")
+    console.log(req.url)
+    console.log(req.headers);
+    return next.handle(req).pipe(tap(event=>{
+      console.log(event)
+      if(event.type===HttpEventType.Response){
+         console.log(event.body)
+      }
+     }))
   }
 }
