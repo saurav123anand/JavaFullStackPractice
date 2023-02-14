@@ -10,6 +10,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { UserComponent } from './users/user/user.component';
 import { AuthGuardService } from './auth-guard.service';
 import { CanDeactivateGuardService } from './can-deactivate.service';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { ServerResolverService } from './servers/server/server-resolver.service';
 
 const routes:Routes=[
   {
@@ -40,7 +42,8 @@ const routes:Routes=[
     children:[
       {
         path:":id",
-        component:ServerComponent
+        component:ServerComponent,
+        resolve:{server:ServerResolverService}
       },
       {
         path:":id/edit",
@@ -59,8 +62,11 @@ const routes:Routes=[
     component:EditServerComponent,
     pathMatch:"full"
   },
+  // {
+  //   path:'not-found',component:PageNotFoundComponent
+  // },
   {
-    path:'not-found',component:PageNotFoundComponent
+    path:'not-found',component:ErrorPageComponent,data:{message:"error page"}
   },
   {
     path:"**",
