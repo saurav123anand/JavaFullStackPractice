@@ -1,0 +1,69 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="btn btn-success" type="submit">Save</button>
+                    <button class="btn btn-danger" type="button" (click)="onCancel()">Cancel</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" class="form-control"
+                        formControlName="name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <label for="imageUrl">Image URL</label>
+                        <input type="text" name="imageUrl" class="form-control"
+                        formControlName="imageUrl" #imageUrl>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <img [src]="imageUrl.value" alt="recipe image" class="img-responsive" height="200">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea type="text" name="description" class="form-control" rows="6"
+                        formControlName="description"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row"  style="margin-top: 12px;">
+                <div class="col-xs-12" formArrayName="ingredients">
+                    <div class="row"
+                    *ngFor="let ingredientCtrl of recipeForm.get('ingredients')?.controls;let i=index"
+                    [formGroupName]="i">
+                        <div class="col-xs-8">
+                            <input type="text" class="form-control" placeholder="name"
+                             formControlName="name">
+                        </div>
+                        <div class="col-xs-2">
+                            <input type="number" class="form-control" placeholder="amount"
+                            formControlName="amount">
+                        </div>
+                        <div class="col-xs-2">
+                            <button type="button" class="btn btn-danger" 
+                            (click)="onDeleteIngredient(i)">X</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button class="btn btn-success" (click)="onAddIngredient()" type="button">Add Ingredients</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
