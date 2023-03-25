@@ -1,0 +1,32 @@
+<mat-toolbar>
+    <a routerLink="/"
+    mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu_book</mat-icon>
+        <span style="font-size: 23px; margin-left:7px;">ExamGenix</span>
+    </a>
+    
+    <span class="example-spacer"></span>
+    <a 
+    *ngIf="!isLoggedIn"
+     routerLink="/login"
+    mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        Login
+    </a>
+    <a
+    *ngIf="!isLoggedIn"
+     routerLink="/signup"
+    mat-icon-button class="example-icon mx-3" aria-label="Example icon-button with share icon">
+        Register
+    </a>
+    <a
+    *ngIf="isLoggedIn"
+    mat-button class="example-icon mx-3" aria-label="Example icon-button with share icon">
+        Hello, {{user.username}}
+    </a>
+    <a
+    (click)="logout()"
+    *ngIf="isLoggedIn"
+    mat-icon-button class="example-icon mx-3" aria-label="Example icon-button with share icon">
+        Logout
+    </a>
+</mat-toolbar>

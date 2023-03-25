@@ -1,0 +1,96 @@
+<section class="bg-image"
+    style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                            <h2 class="text-uppercase text-center mb-2">Register here !!</h2>
+
+                            <form [formGroup]="signupForm" (ngSubmit)="onSignup()">
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>Username</mat-label>
+                                    <input matInput placeholder="Enter here" formControlName="username">
+                                    <mat-hint *ngIf="!signupForm.get('username').valid && 
+                                       signupForm.get('username').touched" class="help-block">
+                                       <span *ngIf="signupForm.get('username').errors['whitespace']
+                                       || signupForm.get('username').errors['nameInvalid'] ||
+                                       signupForm.get('username').errors['required'] ">
+                                        Username is invalid</span>
+                                    </mat-hint>
+                                </mat-form-field>
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>Password</mat-label>
+                                    <input type="password" matInput placeholder="Enter here" formControlName="password">
+                                    <mat-hint *ngIf="!signupForm.get('password').valid && 
+                                       signupForm.get('password').touched" class="help-block">
+                                       <span *ngIf="signupForm.get('password').errors['passwordInvalid'] ||
+                                       signupForm.get('password').errors['required']
+                                       ">
+                                       Password is invalid</span>
+                                    </mat-hint>
+                                </mat-form-field>
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>Firstname</mat-label>
+                                    <input matInput placeholder="Enter here" formControlName="firstName">
+                                    <mat-hint *ngIf="!signupForm.get('firstName').valid && 
+                                       signupForm.get('firstName').touched" class="help-block">
+                                       <span *ngIf="signupForm.get('firstName').errors['whitespace']
+                                       || signupForm.get('firstName').errors['nameInvalid'] ||
+                                       signupForm.get('firstName').errors['required']
+                                       ">
+                                        FirstName is invalid</span>
+                                    </mat-hint>
+                                </mat-form-field>
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>Lastname</mat-label>
+                                    <input matInput placeholder="Enter here" formControlName="lastName">
+                                    <mat-hint *ngIf="!signupForm.get('lastName').valid && 
+                                       signupForm.get('lastName').touched" class="help-block">
+                                       <span *ngIf="signupForm.get('lastName').errors['whitespace']
+                                       || signupForm.get('lastName').errors['nameInvalid'] ||
+                                       signupForm.get('lastName').errors['required']">
+                                        LastName is invalid</span>
+                                    </mat-hint>
+                                </mat-form-field>
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>Email</mat-label>
+                                    <input type="email" matInput placeholder="Enter here" formControlName="email">
+                                    <mat-hint *ngIf="!signupForm.get('email').valid && 
+                                       signupForm.get('email').touched" class="help-block">
+                                       <span *ngIf="signupForm.get('email').errors['whitespace']">
+                                        Email is invalid</span>
+                                    </mat-hint>
+                                </mat-form-field>
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>Phone</mat-label>
+                                    <input type="text" OnlyNumbers matInput placeholder="Enter here" formControlName="phone">
+                                    <mat-hint *ngIf="!signupForm.get('phone').valid && 
+                                       signupForm.get('phone').touched" class="help-block">
+                                       <span *ngIf="signupForm.get('phone').errors['whitespace']
+                                       || signupForm.get('phone').errors['phoneInvalid'] ||
+                                       signupForm.get('phone').errors['required']">
+                                       Phone is invalid</span> 
+                                    </mat-hint>
+                                </mat-form-field>
+
+                                <div class="container text-center">
+                                    <button mat-raised-button color="primary"
+                                        [disabled]="!signupForm.valid">Register</button>
+                                    <button type="button" mat-raised-button color="basic"
+                                        style="margin-left: 20px;">Reset</button>
+                                </div>
+
+                                <p class="text-center text-muted mt-4 mb-0">Have already an account? <a routerLink="/login"
+                                        class="fw-bold text-body" style="cursor: pointer;"><u>Login here</u></a></p>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
