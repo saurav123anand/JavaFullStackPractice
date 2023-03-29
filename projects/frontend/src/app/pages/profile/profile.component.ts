@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginService } from 'src/app/services/login.service';
 
 @Component({
   selector: 'app-profile',
@@ -6,10 +7,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-
-  constructor() { }
+  user = null
+  greet = "Good Morning";
+  constructor(private loginService: LoginService) { }
 
   ngOnInit(): void {
+    this.user = this.loginService.getUser();
+    this.getCurrentTime();
+  }
+  getCurrentTime() {
+    const time = new Date().getHours()
+    if (time < 12) {
+      this.greet = "Good Morning"
+    }
+    else if (time >= 12 && time < 18) {
+      this.greet = "Good Afternoon"
+    }
+    else {
+      this.greet = "Good Evening"
+    }
   }
 
 }

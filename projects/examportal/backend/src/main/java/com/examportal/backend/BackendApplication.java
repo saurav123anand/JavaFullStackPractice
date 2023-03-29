@@ -1,5 +1,6 @@
 package com.examportal.backend;
 
+import com.examportal.backend.exceptions.UserAlreadyExists;
 import com.examportal.backend.models.Role;
 import com.examportal.backend.models.User;
 import com.examportal.backend.models.UserRole;
@@ -25,28 +26,32 @@ public class BackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("starting code...");
-        User user=new User();
-		user.setFirstName("Scooby");
-		user.setLastName("Scoob");
-		user.setUsername("root");
-		user.setPassword(bCryptPasswordEncoder.encode("root@123"));
-		user.setEmail("scooby@gmail.com");
-		user.setPhone("8956452376");
-		user.setProfile("default.png");
+		try {
+			System.out.println("starting code...");
+			User user = new User();
+			user.setFirstName("Scooby");
+			user.setLastName("Scoob");
+			user.setUsername("root");
+			user.setPassword(bCryptPasswordEncoder.encode("root@123"));
+			user.setEmail("scooby@gmail.com");
+			user.setPhone("8956452376");
+			user.setProfile("default.png");
 
-		Role role=new Role();
-		role.setRoleId(44L);
-		role.setRoleName("ADMIN");
+			Role role = new Role();
+			role.setRoleId(44L);
+			role.setRoleName("ADMIN");
 
-		Set<UserRole> userRoles=new HashSet<>();
-		UserRole userRole=new UserRole();
-		userRole.setRole(role);
-		userRole.setUser(user);
-		userRoles.add(userRole);
+			Set<UserRole> userRoles = new HashSet<>();
+			UserRole userRole = new UserRole();
+			userRole.setRole(role);
+			userRole.setUser(user);
+			userRoles.add(userRole);
 
-		userService.createUser(user,userRoles);
-
+			userService.createUser(user, userRoles);
+		}
+		catch (UserAlreadyExists e){
+			e.printStackTrace();
+		}
 
 	}
 }

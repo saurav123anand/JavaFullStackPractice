@@ -1,7 +1,6 @@
 package com.examportal.backend.controller;
 
-import com.examportal.backend.exceptions.UserAlreadyExists;
-import com.examportal.backend.exceptions.UserNotFoundException;
+import com.examportal.backend.exceptions.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -20,11 +19,15 @@ public class GlobalExceptionHandler {
     }
 
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    @ExceptionHandler(UserNotFoundException.class)
-    private String notFoundExceptionHandler(UserNotFoundException e) {
+    @ExceptionHandler({
+            UserNotFoundException.class,
+            CategoryNotFoundException.class,
+            QuizNotFoundException.class,
+            QuestionNotFoundException.class
+    })
+    private String userNotFoundExceptionHandler(UserNotFoundException e) {
         return e.getMessage();
     }
-
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(MethodArgumentNotValidException.class)
     private String handleValidationExceptions(MethodArgumentNotValidException e) {
