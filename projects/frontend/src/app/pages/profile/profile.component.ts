@@ -18,13 +18,13 @@ export class ProfileComponent implements OnInit {
   getCurrentTime() {
     const time = new Date().getHours()
     if (time < 12) {
-      this.greet = "Good Morning"
+      this.greet = "Good morning"
     }
     else if (time >= 12 && time < 18) {
-      this.greet = "Good Afternoon"
+      this.greet = "Good afternoon"
     }
     else {
-      this.greet = "Good Evening"
+      this.greet = "Good evening"
     }
   }
 

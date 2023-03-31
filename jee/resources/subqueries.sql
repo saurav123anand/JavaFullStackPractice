@@ -16,14 +16,13 @@
 -- or we can write
 -- select dept,count(dept) from employee group by dept; 
 	
--- Q6. Write a SQL query to display all the dept names where number of employees are less that 2
+-- Q6. Write a SQL query to display all the dept names where number of employees are less than 2
 -- select dept from employee group by dept having count(*) <2;
 -- If you want to find the name also 
 -- select name from employee where dept in (select dept from employee group by dept having count(*) <2);
 
 -- Q7. Write a SQL query to display highest salary department wise and name of employee who is taking that salary
--- select name from employee where salary in(select max(salary) from employee group by dept);
-
+select name from employee where salary in(select max(salary) from employee group by dept);
 -- in/not in
 -- Q8. Write a SQL query to find the employee whose address is either Delhi or chandigarh or pune
 -- select * from emp where address in ('Delhi','Chandigarh','pune');

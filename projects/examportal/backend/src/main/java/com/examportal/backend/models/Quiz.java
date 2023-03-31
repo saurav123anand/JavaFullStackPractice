@@ -8,7 +8,6 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-@Data
 @Entity
 @Table(name = "quiz")
 public class Quiz {
@@ -26,16 +25,81 @@ public class Quiz {
     @OneToMany(mappedBy = "quiz", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<Question> questions = new HashSet<>();
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Quiz quiz = (Quiz) o;
-        return active == quiz.active && Objects.equals(qid, quiz.qid) && Objects.equals(title, quiz.title) && Objects.equals(description, quiz.description) && Objects.equals(maxMarks, quiz.maxMarks) && Objects.equals(numberOfQuestions, quiz.numberOfQuestions) && Objects.equals(category, quiz.category);
+    public Long getQid() {
+        return qid;
+    }
+
+    public void setQid(Long qid) {
+        this.qid = qid;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getMaxMarks() {
+        return maxMarks;
+    }
+
+    public void setMaxMarks(String maxMarks) {
+        this.maxMarks = maxMarks;
+    }
+
+    public String getNumberOfQuestions() {
+        return numberOfQuestions;
+    }
+
+    public void setNumberOfQuestions(String numberOfQuestions) {
+        this.numberOfQuestions = numberOfQuestions;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public Set<Question> getQuestions() {
+        return questions;
+    }
+
+    public void setQuestions(Set<Question> questions) {
+        this.questions = questions;
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(qid);
+    public String toString() {
+        return "Quiz{" +
+                "qid=" + qid +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", maxMarks='" + maxMarks + '\'' +
+                ", numberOfQuestions='" + numberOfQuestions + '\'' +
+                ", active=" + active +
+                ", category=" + category +
+                ", questions=" + questions +
+                '}';
     }
 }

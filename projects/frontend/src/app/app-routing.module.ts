@@ -9,6 +9,10 @@ import { NormalGuard } from './services/normal.guard';
 import { UserDashboardComponent } from './pages/user/user-dashboard/user-dashboard.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { WelcomeComponent } from './pages/admin/welcome/welcome.component';
+import { ViewCategoriesComponent } from './pages/admin/view-categories/view-categories.component';
+import { AddCategoryComponent } from './pages/admin/add-category/add-category.component';
+import { ViewQuizzesComponent } from './pages/admin/view-quizzes/view-quizzes.component';
+import { AddQuizComponent } from './pages/admin/add-quiz/add-quiz.component';
 
 const routes: Routes = [
   {
@@ -32,7 +36,11 @@ const routes: Routes = [
     canActivate:[AdminGuard],
     children:[
       {path:"",component:WelcomeComponent,pathMatch:"full"},
-      {path:"profile",component:ProfileComponent,pathMatch:"full"}
+      {path:"profile",component:ProfileComponent,pathMatch:"full"},
+      {path:"categories",component:ViewCategoriesComponent,pathMatch:"full"},
+      {path:"add-category",component:AddCategoryComponent,pathMatch:"full"},
+      {path:"quizzes",component:ViewQuizzesComponent,pathMatch:"full"},
+      {path:"add-quiz",component:AddQuizComponent,pathMatch:"full"}
     ]
   },
   {

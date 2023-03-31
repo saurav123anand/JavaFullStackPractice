@@ -4,6 +4,7 @@ import com.examportal.backend.models.Quiz;
 import com.examportal.backend.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Set;
@@ -20,6 +21,7 @@ public class QuizController {
     public Quiz addQuiz(@RequestBody Quiz quiz){
         return quizService.addQuiz(quiz);
     }
+
     //get Quiz
     @GetMapping("/{quizId}")
     public Quiz getQuiz(@PathVariable Long quizId) throws Exception {
@@ -28,13 +30,13 @@ public class QuizController {
 
     // get all quizzes
     @GetMapping("/")
-    public Set<Quiz> getQuizzes(){
+    public Set<Quiz> getQuizzes() {
         return this.quizService.getQuizzes();
     }
 
     //update quiz
     @PutMapping("/")
-    public Quiz updateQuiz(@RequestBody Quiz quiz){
+    public Quiz updateQuiz(@RequestBody Quiz quiz) {
         return quizService.updateQuiz(quiz);
     }
 
@@ -42,7 +44,7 @@ public class QuizController {
     @DeleteMapping("/{quizId}")
     public String deleteQuiz(@PathVariable Long quizId) throws Exception {
         quizService.deleteQuiz(quizId);
-        return "Quiz deleted for id "+quizId;
+        return "Quiz deleted for id " + quizId;
     }
 
 }
